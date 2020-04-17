@@ -68,6 +68,6 @@ public class Note {
 
     @Override
     public String toString() {
-        return label + "\t\t" + text + "\t\t" + " Date: " + date + " checked: " + checked;
+        return "Label: " + label + "\t\t" + text + "\t\t" + " condition: " + checked + "\t\t" + " Date: " + date;
     }
 }
