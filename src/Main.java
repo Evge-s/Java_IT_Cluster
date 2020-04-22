@@ -23,7 +23,7 @@ public class Main {
                     if(controllerNote.CheckCommand(command)){
                         controllerNote.doCommand(command);
                     }
-                    else if(!controllerNote.CheckCommand(command)){
+                    else (!controllerNote.CheckCommand(command)){
                         view.viewOutputLine("Incorrect command!");
                     }
             }
